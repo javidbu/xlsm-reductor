@@ -1,6 +1,6 @@
 @echo off
 setlocal enabledelayedexpansion
-set /p carpeta="Arrastrar carpeta aquí..."
+set /p carpeta="Arrastrar carpeta aqui..."
 set curr_dir="%CD%"
 cd %carpeta%
 echo "Limpiando hojas"
